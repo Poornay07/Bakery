@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8b400;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.carousel {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.carousel .container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.carousel img {
+    width: 250px;
+    height: auto;
+}
+
+.items {
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.items .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.item img {
+    width: 175px;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.item h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.item p {
+    font-size: 1em;
+    color: #555;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #f8b400;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+margin-top: -30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+.bakitm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 75%;
+}
+.listitm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
